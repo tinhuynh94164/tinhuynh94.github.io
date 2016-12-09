@@ -1,0 +1,103 @@
+body, td, th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.wrapper {
+	width : 95%;
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: #0a6395;
+}
+li {
+	list-style: none;
+}
+.title {
+	font-weight: bold;
+	border-bottom: #ffa500 2px solid;
+}
+#container {
+	margin: auto;
+	width: 320px;
+	background: #e6f3fb;
+	padding-bottom:10px;
+}
+.bg-news {
+	overflow: auto;
+	background: #fff;
+	padding: 5px;
+}
+/*---BlogRoll---*/
+.img-news {
+	float: left;
+	clear: both;
+	border: 1px solid #cccccc;
+}
+.news {
+	float: right;
+	width: 100px;
+}
+.tile-news {
+	font-weight: bold;
+}
+.text-italic {
+	font-style: italic;
+}
+.news-link {
+	background: #faf0bf;
+}
+.news-link li {
+	padding: 10px 5px;
+	border-bottom: 2px solid #fff;
+}
+.news-link span {
+	font-weight: bold;
+}
+/*--Horoscopes--*/
+.bg-news1 {
+	overflow: auto;
+	background: #fff;
+}
+.news-ho {
+	float: right;
+	width: 175px;
+}
+.ft-ho {
+	padding: 15px 0 0 15px;
+}
+.ft-ho a {
+	font-weight: bold;
+}
+.img-news2 {
+	float: right;
+	height: 50px;
+}
+/*--Getnews--*/
+.img-news3 {
+	float: right;
+}
+.news-get {
+	padding:15px;
+	float: left;
+	width: 125px;
+}
+/*---Competition---*/
+.title-ft {
+	font-weight:bold;	
+}
+.bg-news-ft {
+	border:  #dadada 1px solid;
+	overflow: auto;
+	background: #fff;
+	padding: 5px;
+}

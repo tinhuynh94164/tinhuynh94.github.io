@@ -1,0 +1,131 @@
+/*--Body--*/
+*{
+	margin:0;
+	padding:0;
+	font-family: Verdana, "Arial", Helvetica, sans-serif !important;
+}
+
+#container{
+	width:1263px;
+	margin:auto;
+	background:#24262a;
+	min-height:700px;
+}
+#nav {
+	width:100%;
+	height:112px;
+	background:#2d2f35;
+}
+
+/*--Banner--*/
+#banner{
+	height:300px;
+	background:url(../image/bg_home_intro.gif) repeat-x;
+	width:100%;
+	position:relative;
+}
+
+#banner .img{
+	position:absolute;
+	top:0px;
+	left:619px;
+}
+
+#banner .content{
+	width: 400px;
+	margin-left:132px;	
+}
+
+#banner .content h3{
+	color:#ffff00 !important;
+	font-family:monospace !important;
+	margin-bottom:33px;
+	font-size:25px;
+	font-weight:500;
+}
+#banner .content p{
+	color: #FFFFFF;
+	font-size:9pt;
+}
+
+/*--Menu--*/
+#menu {
+	width:100%;
+	height: 143px;
+	background:#2d2f35;
+	border-bottom:1px solid #474a51;
+	border-top:1px solid #474a51;
+}
+
+#menu .menu-list{
+	margin-top:26px;
+	margin-left: 180px;
+	min-height:100px;
+	min-width:50px;
+	margin-left:180px;
+	
+}
+#menu .menu-item{
+	width:220px;
+	height:100px;
+	border-radius:10px;
+	float:left;
+	margin-right:16px;	
+	position:relative;
+}
+#menu .index{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+/*--Main--*/
+#main{
+	width:100%;
+	height:370px;
+	background:#2d2f35;
+	border-bottom:1px solid #474a51;
+	margin-top: -10px;
+
+}
+#main .content{
+	margin:10px 135px;
+}
+#main h3{
+	color:#ffff00;
+	font-weight:500;
+	margin-bottom:5px;
+	font-size:20px;
+	font-family:monospace !important;
+}
+#main p{
+	color: #FFFFFF;
+	font-size:9pt;
+	text-align:justify;
+}
+
+#main .p1,.p2 {
+	width:400px;
+}
+
+#main .p1{
+	float:left;
+	clear:both;
+	background:  url(../image/home_services_bg_design.gif) no-repeat right bottom;
+}
+#main .p2{
+	float:right;
+	background: url(../image/home_services_bg_marketing.gif) no-repeat top left;
+}
+#main .p2 h3{
+	margin-bottom:35px;
+}
+#footer{
+	height:120px;
+	background:url(../image/bg_footer.gif) center no-repeat;
+
+}
+#footer p{
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+}

@@ -1,0 +1,153 @@
+/*---Nav---*/
+#container {
+	background:#121212;
+	margin:auto;
+	width:1263px;
+	min-height:1105px;
+	position:relative;
+}
+
+#nav{
+	background:url(../image/bg_header.jpg);
+	width:100%;
+	height:305px;
+	margin-bottom:62px;
+}
+#nav .logo{
+	background:url(../image/logo.jpg);
+	width:353px;
+	height:116px;
+	position:absolute;
+	top:53px;
+	left:50px;
+	line-height:116px;
+}
+#nav h3 {
+	font-size:30px;
+	padding-left:90px;
+}
+#nav .menu{
+	position:absolute;
+	top:191px;
+	left:68px;
+}
+#nav .menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+#nav .menu-img{
+	width:138px;
+}
+#nav .menu li{
+	display:inline;
+}
+#nav img{
+	display:block;
+}
+#nav a {
+	margin-left:6px;
+	float:left;
+	text-decoration:none;
+	font-size:20px;
+	text-align:center;
+	color:#FFFFFF;
+}
+/*--Main--*/
+#main{
+	
+}
+#main #left{
+	margin-left:68px;
+	float:left;
+	background:#1f1f1f;
+	width:238px;
+	height:361px;
+	color:#707070;
+}
+/*---Lef content--*/
+#left .box1{
+	border-top:1px solid #707070;
+	margin:44px 22px;
+	height:145px;
+	border-bottom:0.01em solid #707070;
+	margin-bottom:30px;
+}
+#left .box1 p {
+	padding:25px 15px;
+}
+#left .box2{
+	
+}
+#left .box2 ul{
+	list-style-type:square;
+	margin-left:45px;
+}
+#left .box2 li{
+	margin-bottom:2px;
+}
+#left .box2 li a{
+	text-decoration:underline;
+	color:#707070;
+}
+/*---Right content-*/
+#main #right{
+	float:left;
+}
+#right .content{
+	margin:39px 37px;
+	width:397px;
+}
+/*--Conten box--*/
+.content-box{
+	margin-bottom:40px;
+}
+.content-box img{
+	margin-bottom:22px;
+	display:block;
+}
+.content-box input[type="text"]{
+	width:117px;
+	height:20px;
+	background:#707070;
+	border:none;
+	display:block;
+	margin-bottom:15px;
+	margin-left:15px;
+}
+.content-box p{
+	color:#707070;
+	margin-left:15px;
+	margin-bottom:20px;
+	
+}
+.content-box hr{
+		margin:auto;
+		border:none;
+		border-top:1px dotted #707070;
+		height:1px;
+		width: 92%;
+		margin-bottom:20px;
+}
+.content-box .launch::before{
+	content: url(../image/arr_1.gif);
+	margin-right:8px;
+}
+.content-box .launch{
+	text-decoration:none;
+	color:#FFFFFF;
+	margin-left:15px;
+}
+
+/*---Footer---*/
+#footer{
+	margin-left:68px;
+	width:655px;
+	height:100px;
+	clear:both;
+	border-top:dotted 1px #707070;
+}
+#footer p{
+		color:#707070;
+		margin:25px 10px;
+}

@@ -1,0 +1,99 @@
+/* CSS Document */
+
+body,td,th {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 14px;
+}
+body {
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.wrapper {
+	width : 0;
+	margin: 0 auto;
+}
+#container {
+    margin: auto;
+    border: solid 1px #0033FF;
+    min-height: 500px;
+    width: 500px;
+}
+.title {
+    font-weight: bold;
+    background: url(../image/title_background.gif) repeat-x;
+    height: 25px;
+    line-height: 25px;
+}
+.basic-info {
+    overflow: auto;
+}
+.avatar {
+	float: left;
+    clear: both;
+}
+.info {
+    width: 400px;
+    float: right;
+    height: 100px;
+    overflow: scroll;
+}
+.info ul {
+    list-style: none;
+}
+#facts {
+    margin-bottom: 20px;
+}
+.facts-title {
+    font-weight: bold;
+    padding: 20px 5px 5px 5px;
+}
+.facts-item {
+    margin-left: 50px;
+    display: block;
+}
+.facts-item::before {
+	font-family: FontAwesome;
+   	content: "\f005";
+	margin-right:5px;
+	color:#7EC5F3;
+}
+.post-content {
+    font-size: 14px;
+    position: relative;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 1px;
+    min-height: 20px;
+    background: #ececec;
+}
+.post-content::after {
+    content: " ";
+    height: 0;
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #ececec;
+    top: 100%;
+    left: 8%;
+    position: absolute;
+}
+.post-info {
+    margin-left: 15%;
+    font-size: 14px;
+}
+.cmt-form h3 {
+	text-align: center;
+	font-size:20px;
+}
+.cmt-form table {
+    font-size: 14px;
+    width: 100%;
+}
+.cmt-form textarea {
+    width: 98%;
+    resize: none;
+    height: 100px;
+}
