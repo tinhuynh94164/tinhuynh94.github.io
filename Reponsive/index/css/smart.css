@@ -1,0 +1,162 @@
+@media screen and (max-width: 644px) {
+.slide_image {
+	display: none;
+}
+
+div.float,
+img.float,
+a.float,
+.float{
+	float:none;
+	text-align:center;
+	margin:7px auto;
+	display:inline-block;
+	}
+.header {
+	width: 100%;
+
+}
+.header_content {
+	width: 100%;
+
+}
+.header_content >img{
+	width: 100%;
+	float: none;
+	margin: 0 auto 0 auto;
+}
+
+.header_content_right {
+	float: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.header_content p {
+	width: 100%;
+}
+#menu1 {
+	margin-left: 0px;
+}
+.content {
+	width: 100%;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+.content_left {
+	width: 100%;
+	float: none;
+}
+.content_right {
+	width: 230px;
+	float: none;
+}
+h2 {
+	width: 100%;	
+}
+.content_left_box1_img {
+	float: none;
+	margin: 0 auto 0 auto;
+}
+.content_left_box1_inf {
+	width: 100%;
+	float: none;
+	margin: 0 auto 0 auto;
+
+}
+.content_left_box2_item {
+	max-width: 218px;
+	min-width: 218px;
+	float: none;
+	height: 400px;
+	border: 1px solid gray;	
+	margin: 10px auto 0 auto;
+}
+.content_left_box2_item2 {
+	max-width: 218px;
+	min-width: 218px;
+	float: none;
+	margin: 10px auto 0 auto;
+	height: 400px;
+	border: 1px solid gray;
+}
+.content_left_box3_img_h2 {
+	float: none;
+}
+.content_left_box3_inf {
+	width: 100%;
+}
+#fix_h2 {
+	width: 100%;
+}
+.content_right {
+	width: 100%;
+	float: none;
+	margin: 0 auto 0 auto;
+}
+.content_right_box1 {
+	text-align: center;
+	width: 100%;
+}
+.content_right_box1 >img{
+
+	width: 90%;
+}
+.content_right_box2 {
+	border: 1px solid gray;
+	width: 100%;
+	margin-top: 10px;
+}
+.content_right_box3 {
+	margin-top: 10px;
+	width: 100%;
+}
+.content_right_box3 >img{
+	width: 100%;
+}
+.content_right_box4 {
+	width: 100%;
+}
+.footer_content {
+	width: 100%;
+	margin: 20px auto 0 auto;
+}
+.footer_content_box1 {
+	margin: 20px auto 0 auto;
+	width: 100%;
+	float: none;
+}
+.footer_content_box2 {
+	border: 1px solid gray;
+	float: none;
+	width: 100%;
+	height: 230px;
+	margin: 20px auto 0 auto;
+}
+.footer_content_box2_menu_left {
+	float: none;
+}
+.footer_content_box2_menu_right {
+	float: none;
+}
+.footer_content_box3 {
+	background-color: white;
+	list-style: inside url('../images/footer_bullet.png');
+	margin: 20px auto 0 auto;
+	float: none;
+	width: 100%;
+}
+.footer_under {
+	background-image: url('../images/bg_menu_sub.jpg');
+	background-repeat: repeat;
+	height: auto;
+	width: 100%;
+	float: none;
+}
+.footer_under >p{
+	margin:0 auto 0 auto;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+}
