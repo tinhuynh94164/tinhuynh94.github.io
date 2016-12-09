@@ -1,0 +1,55 @@
+body {
+	background: url(../img/clock.jpg);
+	background-size:cover;
+}
+
+.container {
+	width: 500px;
+	position: relative;
+	left: 15%;
+	top: 40px;
+}
+
+
+
+#input_field {
+	position: relative;
+	margin-left: 15px;
+}
+#input_field input {
+	height: 20px;
+}
+#input_field img {
+	position: absolute;
+	left: 150px;
+	top: 2px;
+}
+#input_field img:hover {
+	cursor: pointer;
+}
+
+
+#calendar {
+	display: none;
+	margin-top: 10px;
+	background:#29323f;
+	width: 75%;
+	border-radius:5px;
+}
+
+
+#calendar table img:hover {
+	cursor: pointer;
+}
+
+table td {
+	text-align: center;
+	width: 50px;
+	height: 25px;
+	box-sizing: border-box;
+	color:#6b6f74;
+}
+
+table td:hover {
+	cursor: default;
+}

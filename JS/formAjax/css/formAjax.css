@@ -1,0 +1,50 @@
+
+body {
+	background-image: url(../img/background-login.png);
+    background-size: initial;
+}
+
+fieldset{
+background: #e0e3e4;
+    background-image:url(../img/catle.png);
+    background-size: initial;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+legend {
+	font-weight: bold;
+	color:#6b6f74;
+}
+
+
+
+#info {
+	border-spacing: 10px;
+	width: 40%;
+}
+#info > tbody > tr > td:first-child {
+	text-align: right;
+	font-weight: bold;
+}
+
+#info > tbody > tr > td:nth-of-type(3) {
+	color: red;
+}
+#info input {
+	height: 20px;
+}
+#info #ajax_sub, #info #ajax_ref {
+	font-weight: bold;
+	height: 40px;
+	margin-right: 10px;
+	opacity: 0.8;
+}

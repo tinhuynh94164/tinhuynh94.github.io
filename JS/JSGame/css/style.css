@@ -1,0 +1,49 @@
+/*********Frame COntrol************/
+#frame-control{
+	background-color: #000000;
+	display: block;
+	width:800px;
+	height:90px;
+}
+#frame-play{
+	background: url(../images/bg.jpg) no-repeat left top;
+	background-size: 100% 100%;
+	width:800px;
+}
+/*------ Navagation Game ---------*/
+/*Pause game*/
+.pause {
+	background: url(../images/pause.png) no-repeat left top;
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+}
+/*Reset game*/
+.reset{
+	background: url(../images/reset.png) no-repeat left top;
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 54%;
+}
+.boom{
+	background: url(../images/nuclear.png) no-repeat left top;
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+}
+.num_of_boom{
+	color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
