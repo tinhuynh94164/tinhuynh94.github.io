@@ -1,0 +1,13 @@
+#wSilder{
+	position: relative;
+	max-width: 960px;
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#wSilder img{
+	max-width:960px;
+	width: 100%;
+	height: auto;
+}
