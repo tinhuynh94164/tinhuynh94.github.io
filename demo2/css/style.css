@@ -1,0 +1,58 @@
+.plain-js-todo {
+	padding: 30px 50px;
+	background-color: #f8f8f8;
+}
+
+.plain-js-todo .delete-link {
+	margin-left: 20px;
+    padding: 0 5px;
+    color: #fff;
+    background-color: #f14545;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.plain-js-todo h1 {
+	margin-bottom: 30px;
+}
+
+.plain-js-todo input {
+	margin-bottom: 15px;
+	padding: 6px 12px;
+}
+
+.plain-js-todo #products {
+	list-style-type: none;
+	margin-bottom: 30px;
+	padding: 0;
+	max-width: 450px;
+}
+
+.plain-js-todo #products li {
+	background-color: #fff;
+	padding: 10px 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.plain-js-todo #products li .count {
+	padding: 3px;
+	margin-right: 20px;
+	font-weight: bold;
+	border: 1px solid #b7b7b7;
+	color: #b7b7b7;
+	border-radius: 50%;
+	width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+} 
+
+.plain-js-todo #products li .name {
+	font-size: 16px;
+}
+
+.plain-js-todo button {
+	padding: 5px 30px;
+}
