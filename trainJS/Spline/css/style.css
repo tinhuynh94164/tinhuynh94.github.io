@@ -1,0 +1,14 @@
+body {
+	margin-left:50px;
+	margin-top:50px;
+}
+#container-canvas {
+	width : 300px;
+	height: 300px;
+	overflow: auto;
+	float: left;
+}
+#canvas {
+	background: #FFFFCC;
+	border: 1px #003333 solid;
+}
